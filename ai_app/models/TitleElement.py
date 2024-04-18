@@ -3,7 +3,7 @@ import openai  # Importuje bibliotekę klienta OpenAI do interakcji z API OpenAI
 import os  # Importuje moduł os do pracy z zmiennymi środowiskowymi systemu operacyjnego
 
 # Ustaw swój klucz API OpenAI tutaj
-openai.api_key = os.environ.get('sk-proj-0F6GN1R3TvNoDt4dz3yiT3BlbkFJBpOMnEvNhGDdWD6P5gSB')  # Pobiera wartość zmiennej środowiskowej 'OPENAI_API_KEY' i przypisuje ją jako klucz API do klienta OpenAI
+openai.api_key = os.environ.get('sk-proj-KguSXZmqb4sJfBj4wXXFT3BlbkFJaNJnL4LyeQfZYN0lwZr7')  # Pobiera wartość zmiennej środowiskowej 'OPENAI_API_KEY' i przypisuje ją jako klucz API do klienta OpenAI
 
 def generate_description_from_title(title):  # Definiuje funkcję, która generuje opis na podstawie podanego tytułu
     try:
